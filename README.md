@@ -8,4 +8,6 @@ first i thought it will be easy using chat gpt
 but then i thought to find a book(PDF) somewhere
 couldn't find then found the site
 so how i do this is i read and do the exercise in that site and then kinda copy and paste the code back to vs code to create the file and then update it at the end of the day
-it's pretty nice having chatgpt it helps a lot  
+it's pretty nice having chatgpt it helps a lot 
+so here me out ok
+found this pdf The C Programming Language - 2nd Edition and i kept reading it and it looks great so i am kinda go do here and there from the site and the pdf 
