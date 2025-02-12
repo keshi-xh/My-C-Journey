@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*Print Celsius to Fahrenheit*/
-main()
+int main()
 {
     printf("Celsius to Fahrenheit Conversion Table\n");
     float celsius, fahr;
