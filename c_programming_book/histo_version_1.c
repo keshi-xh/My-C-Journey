@@ -8,19 +8,8 @@ int main()
     MAXHIST = 15;
     int character_list[94] = {0};
     
-    printf("Enter input (press Shift + Enter to simulate EOF):\n");
     while ((c = getchar()) != EOF)
     {
-        // Detect Shift + Enter simulation (newline followed by '#')
-        if (c == '\n') {
-            int next = getchar();
-            if (next == '#') {
-                break; // Simulate EOF
-            } else if (next != EOF) {
-                ungetc(next, stdin); // Put the character back if not '#'
-            }
-        }
-
         if(c != ' ' && c != '\t' && c != '\n')
         {
             if (character_list[c-33] < MAXHIST) 
